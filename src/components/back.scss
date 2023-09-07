@@ -1,0 +1,11 @@
+.back {
+  background-color: #1f2630;
+  max-width: 400px; 
+  border-radius: 20px;
+  padding: 30px;
+  margin: 0 20px 0 20px;
+  text-align: center;
+  &__image {
+    margin: 0 auto;
+  }
+}
