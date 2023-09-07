@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .card {
+    background-color: #1f2630;
+    max-width: 400px; 
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 20px 0 20px;
+    .numbers {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__submit {
+      width: 100%;
+      background-color: #fb7413;
+      margin-top: 20px;
+      font-size: 1rem;
+      color: white;
+      text-transform: uppercase;
+      padding: 10px 0 10px 0;
+      border-radius: 20px;
+      transition: .3s;
+      &:hover {
+        background-color: white;
+        color: #fb7413;
+      }
+    }
+  }
+}
